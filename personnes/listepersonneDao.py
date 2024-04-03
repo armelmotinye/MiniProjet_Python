@@ -1,13 +1,18 @@
 import database
 from personnes.listepersonne import listepersonne
+
+
+
 class listepersonneDao:
-    # attributs de classe
+    
     connexion = database.connect_db()
     cursor = connexion.cursor()
+pass
     
 @classmethod
 def ajouter_personne(cls, nom, age):
         # Ajouter une personne à la base de données
+        
         connexion = cls.connexion_db()
         cursor = connexion.cursor()
         sql = "INSERT INTO Personnes (nom, age) VALUES (%s, %s)"
