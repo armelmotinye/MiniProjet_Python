@@ -1,4 +1,4 @@
-class fileattente:
+class FileAttente:
     # attributs de classe
     def __init__(self, id):
         self.__nom = nom

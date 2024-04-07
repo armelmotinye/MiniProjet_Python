@@ -1,4 +1,4 @@
-class listepersonne:
+class ListePersonne:
     # attributs de classe
     def __init__(self, nom, age) -> None:
         self.__nom = nom

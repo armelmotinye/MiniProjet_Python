@@ -3,7 +3,7 @@ from personnes.listepersonne import ListePersonne
 
 
 
-class listepersonneDao:
+class ListePersonneDao:
     
     connexion = database.connect_db()
     cursor = connexion.cursor()

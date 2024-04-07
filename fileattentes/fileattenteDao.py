@@ -3,7 +3,7 @@ from fileattentes.fileattente import FileAttente
 
 
 
-class fileattenteDao:
+class FileAttenteDao:
     connexion = database.connect_db()
     cursor = connexion.cursor()
     pass
