@@ -1,5 +1,5 @@
 import database
-from fileattentes.fileattente import fileattente
+from fileattentes.fileattente import FileAttente
 
 
 

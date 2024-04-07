@@ -1,5 +1,5 @@
 import database
-from personnes.listepersonne import listepersonne
+from personnes.listepersonne import ListePersonne
 
 
 

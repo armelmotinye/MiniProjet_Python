@@ -1,14 +1,17 @@
 class fileattente:
     # attributs de classe
     def __init__(self, id):
-        self.__id = id
+        self.__nom = nom
 
     @property
-    def id(self):
-        return self.__id
+    def nom(self):
+        return self.__nom
 
-    @id.setter
-    def id(self, value):
-        self.__id = value
+    @nom.setter
+    def nom(self, value):
+        self.__nom = value
+
+
+    
 
         
